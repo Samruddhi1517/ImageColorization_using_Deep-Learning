@@ -1,18 +1,5 @@
 # 🎨 AI-Powered Image Colorization
-
-<p align="center">
-  Transform Black & White Images into Vibrant Color Photographs using Deep Learning
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg">
-  <img src="https://img.shields.io/badge/Flask-Web%20App-green.svg">
-  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-red.svg">
-  <img src="https://img.shields.io/badge/Deep%20Learning-Caffe-orange.svg">
-</p>
-
 ---
-
 ## 🚀 Project Overview
 
 Image Colorization is a Deep Learning-based web application that automatically converts grayscale (black & white) images into realistic color images.
@@ -65,11 +52,11 @@ This project uses OpenCV's pre-trained Image Colorization model based on the Caf
 
 ### Model Files
 
-```text
-colorization_deploy_v2.prototxt
-colorization_release_v2.caffemodel
-pts_in_hull.npy
-```
+
+* colorization_deploy_v2.prototxt
+* colorization_release_v2.caffemodel https://1drv.ms/u/c/66d57ea21998d120/IQB2T75G1lgyT7n_LC3ZBSLTAW4BIebTEsWcsaVQYuh8a5k?e=roXajE
+* pts_in_hull.npy
+
 
 The model has been trained on millions of color images and learns to predict realistic color distributions from grayscale inputs.
 
@@ -94,11 +81,6 @@ The model has been trained on millions of color images and learns to predict rea
 * NumPy
 * Caffe Pretrained Model
 
-### Deployment
-
-* GitHub
-* Render / Railway / Hugging Face Spaces
-
 ---
 
 ## 📂 Project Structure
@@ -108,7 +90,7 @@ ImageColorization/
 │
 ├── app.py
 ├── colorization_deploy_v2.prototxt
-├── colorization_release_v2.caffemodel (link : https://1drv.ms/u/c/66d57ea21998d120/IQB2T75G1lgyT7n_LC3ZBSLTAW4BIebTEsWcsaVQYuh8a5k?e=roXajE)
+├── colorization_release_v2.caffemodel 
 ├── pts_in_hull.npy
 │
 ├── templates/
